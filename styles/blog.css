@@ -1,0 +1,53 @@
+/* common sheared styles */
+
+
+/* header related styles */
+.banner{
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 0px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 200px;
+}
+.banner-title{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.banner-main-title{
+    font-size: 70px;
+    max-width: 650px;
+    margin-top: 0px;
+    text-align: center;
+    padding-left: 320px;
+}
+
+/* Main related styles */
+
+.offer-section{
+    width: 806px;
+    height: 806px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.section-title{
+    color: #FF0000;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.section-description{
+    color: #FF0000;
+    font-size: 24px;
+    margin: 0px;
+}
+.section-subtitle{
+    color: #070211;
+    font-size: 50px;
+    margin: 0 0 15px 0;
+}
