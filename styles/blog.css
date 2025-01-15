@@ -27,6 +27,8 @@
 
 /* Main related styles */
 
+
+/* offer related styles */
 .offer-section{
     width: 806px;
     height: 806px;
@@ -50,4 +52,74 @@
     color: #070211;
     font-size: 50px;
     margin: 0 0 15px 0;
+}
+
+/* welcome section related styles */
+.welcome-section{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.welcome-section-column{
+    padding-left: 150px;
+}
+.welcome-section-img{
+    margin-right: 150px;
+}
+.welcome-section-title{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+    max-width: 640px;
+    margin-bottom: 0px;
+}
+.welcome-section-description{
+    color: #ffffff;
+    font-size: 18px;
+}
+.btn{
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+}
+
+/* address section related styles */
+
+.address-secton{
+    background-color: lightsteelblue;
+    /* text-align: center; */
+    width: 1320px;
+    height: 380px;
+    margin: 50px auto 50px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 10px;
+    /* padding-top: 100px; */
+}
+.address-container{
+    text-align: center;
+    padding: 100px;
+}
+.address{
+    font-size: 32px;
+    color: #070211;
+    margin: 0px;
+    padding: 5px;
+}
+.btn-address-section{
+    color: #ffffff;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 55px;
+    width: 165px;
+    margin-top: 5px;
 }
