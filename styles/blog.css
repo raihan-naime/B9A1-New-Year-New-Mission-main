@@ -55,6 +55,8 @@
 }
 
 /* welcome section related styles */
+
+
 .welcome-section{
     display: flex;
     justify-content: space-around;
@@ -93,14 +95,10 @@
 
 .address-secton{
     background-color: lightsteelblue;
-    /* text-align: center; */
     width: 1320px;
     height: 380px;
-    margin: 50px auto 50px auto;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin: 100px auto 100px auto;
     border-radius: 10px;
-    /* padding-top: 100px; */
 }
 .address-container{
     text-align: center;
@@ -122,4 +120,68 @@
     height: 55px;
     width: 165px;
     margin-top: 5px;
+}
+
+/* best-offer-section related styles */
+
+.best-offer-section{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1320px;
+    height: 465px;
+}
+/* 1st column */
+.bos-first-column{
+    width: 395px;
+    height: 255px;
+    margin: auto;
+}
+.first-column-subtitle{
+    color: #FF0000;
+    font-size: 24px;
+    margin: 0px;
+}
+.first-column-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+.first-column-description{
+    color: #070211;
+    font-size: 20px;
+}
+
+/* 2nd column */
+
+.bos-second-column{
+    width: 463px;
+    height: 463px;
+}
+/* 3rd column */
+
+.third-first-column{
+    width: 276px;
+    height: 170px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.bos-img{
+    margin-top: 0;
+    width: 140px;
+    height: 140px;
+}
+.third-column-title{
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+.third-column-description{
+    color: #070211;
+    font-size: 20px;
+    width: 276px;
+    height: 95px;
+    margin-top: 0;
 }
