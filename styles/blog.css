@@ -137,18 +137,18 @@
     height: 255px;
     margin: auto;
 }
-.first-column-subtitle{
+.first-column-subtitle, .ap-subtitle{
     color: #FF0000;
     font-size: 24px;
     margin: 0px;
 }
-.first-column-title{
+.first-column-title, .ap-title, .s-s-title{
     color: #070211;
     font-size: 48px;
     font-weight: bolder;
     margin: 0px;
 }
-.first-column-description{
+.first-column-description, .ap-description, .s-s-description{
     color: #070211;
     font-size: 20px;
 }
@@ -184,4 +184,88 @@
     width: 276px;
     height: 95px;
     margin-top: 0;
+}
+
+/* holiday section related styles */
+
+.holiday-section{
+    margin: auto;
+    width: 1320px;
+    height: 990px;
+}
+.pictures{
+    background-image: url('../resources/Group\ 75.png');
+}
+/* .box{
+    width: 675px;
+    height: 575px;
+}
+.discount{
+    width: 220px;
+    height: 220px;
+}
+.shopping-bag{
+    width: 430px;
+    height: 430px;
+} */
+
+/* awesome portfolio section */
+
+.awesome-portfolio-section{
+    width: 1320px;
+    height: 1125px;
+    margin: auto;
+}
+.ap-description,{
+    width: 895px;
+    height: 64px;
+}
+.img{
+    width: 424px;
+    height: 450px;
+}
+
+
+/* subscribe section  */
+
+.subscribe-section{
+    background-color: plum;
+    width: 1320px;
+    height: 615px;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+.subscribe-items{
+    margin: 100px auto 100px auto;
+}
+.s-s-description{
+    width: 895px;
+    height: 64px;
+    margin: 30px auto 50px auto;
+}
+
+.s-s-img{
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 30px 0;
+}
+.email-s_btn{
+    width: 650px;
+    height: 72px;
+    margin: 50px 0 50px 0;
+}
+#email{
+    width: 450px;
+    height: 52px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+.subscribe-btn{
+    background-color: #FF0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    height: 52px;
+    margin-left: 0;
 }
